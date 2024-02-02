@@ -1,0 +1,5 @@
+tasks:
+  lint:
+    command: "helm lint ."
+  package:
+    command: "helm package . --dependency-update --destination=package/"

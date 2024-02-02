@@ -19,3 +19,8 @@
 
 # Go workspace file
 go.work
+
+# moon
+.moon/cache
+.moon/docker
+package/
