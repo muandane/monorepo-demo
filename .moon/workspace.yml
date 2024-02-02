@@ -11,8 +11,7 @@ $schema: "https://moonrepo.dev/schemas/workspace.json"
 # When using a map, each entry requires a unique project ID as the map key, and a file system
 # path to the project folder as the map value. File paths are relative from the workspace root,
 # and cannot reference projects located outside the workspace boundary.
-projects:
-  testchart: "test-chart/"
+projects: ["charts/*"]
 
 # Configures the version control system to utilize within the workspace. A VCS
 # is required for determining touched (added, modified, etc) files, calculating file hashes,
