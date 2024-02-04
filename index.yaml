@@ -1,0 +1,36 @@
+apiVersion: v1
+entries:
+  app1:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2024-02-06T17:59:07.784699+01:00"
+    description: A Helm chart for Kubernetes
+    digest: 9713859acd62d7ae3155fe761513c4f1ef9ca0c84b7f4bc8aec656d6f4f02d2b
+    name: app1
+    type: application
+    urls:
+    - https://github.com/muandane/monorepo-demo/releases/download/app1-0.1.0/app1-0.1.0.tgz
+    version: 0.1.0
+  app2:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2024-02-06T17:59:07.984215+01:00"
+    description: A Helm chart for Kubernetes
+    digest: 28132ea4f046d2635921c675bf9f996b91c9045660f245fdea42e3d02b541c72
+    name: app2
+    type: application
+    urls:
+    - https://github.com/muandane/monorepo-demo/releases/download/app2-0.1.0/app2-0.1.0.tgz
+    version: 0.1.0
+  app3:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2024-02-06T17:59:08.19741+01:00"
+    description: A Helm chart for Kubernetes
+    digest: 94eb5d1ab540733ec23202b00f542a7b2013ed452727fda39e757375c8500a3c
+    name: app3
+    type: application
+    urls:
+    - https://github.com/muandane/monorepo-demo/releases/download/app3-0.1.0/app3-0.1.0.tgz
+    version: 0.1.0
+generated: "2024-02-06T17:59:08.197423+01:00"

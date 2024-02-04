@@ -23,4 +23,5 @@ go.work
 # moon
 .moon/cache
 .moon/docker
-package/
+packages/
+.cr-release-packages
